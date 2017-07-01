@@ -24,7 +24,7 @@ public class SauCastClient {
     private SauCastMessageListener messageListener;
     public HubConnection mHubConnection;
     public HubProxy mHubProxy;
-    String HubUrl = "http://webinar.sakarya.edu.tr";
+    String HubUrl = "hub url adresi";
 
     public SauCastClient() {
 
