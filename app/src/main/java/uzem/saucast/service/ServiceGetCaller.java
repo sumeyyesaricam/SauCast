@@ -14,7 +14,7 @@ public class ServiceGetCaller extends AsyncTask<String, Void, String> {
 
     private ProgressDialog progressDialog;
     private Activity _Activity = null;
-    private final static String API_URL = "http://webinar.sakarya.edu.tr/api/WApi";
+    private final static String API_URL = "API adresi";
     private List<NameValuePair> _Data ;
     public ServiceGetCaller(Activity activity) {
         this._Activity = activity;
