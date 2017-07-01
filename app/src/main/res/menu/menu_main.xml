@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menu_count"
+        android:actionLayout="@layout/message_count_layout"
+        android:title="Göster"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/like"
+        android:icon="@mipmap/clap1"
+        android:title="Göster"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/report"
+        android:icon="@mipmap/report"
+        android:title="Bildiri"
+        app:showAsAction="always">
+
+    </item>
+</menu>

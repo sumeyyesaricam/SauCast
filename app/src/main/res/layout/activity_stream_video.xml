@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/liveView"
+    tools:context="uzem.saucast.activity.LiveActivity">
+    <VideoView
+        android:layout_width="415dp"
+        android:layout_height="240dp"
+        android:layout_margin="0dp"
+        android:id="@+id/presenterView"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark" />
+    <TextView
+        android:layout_width="415dp"
+        android:layout_height="240dp"
+        android:layout_margin="0dp"
+        android:text="Sunucu Yükleniyor..."
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/txtPresenter"
+        android:layout_gravity="center_horizontal" />
+    <VideoView
+        android:layout_width="415dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="240dp"
+
+        android:id="@+id/guestView"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="415dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="240dp"
+        android:text="Konuk Yükleniyor..."
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/txtGuest"
+        android:layout_gravity="center_horizontal" />
+
+
+</RelativeLayout>
