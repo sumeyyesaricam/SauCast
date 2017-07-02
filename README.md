@@ -1,5 +1,5 @@
 # SauCast
-
+   The SauCast project is an Android-based mobile application with live video broadcast and messaging for training. In the project, the students can watch the live broadcasts given by the teachers and can communicate in real time.
 ## SİSTEM MİMARİSİ
 ![image](https://user-images.githubusercontent.com/8450572/27765031-901d8eda-5eb0-11e7-8290-4e9896999922.png)
 ## EKRAN GÖRÜNTÜLERİ
